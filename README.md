@@ -1,18 +1,21 @@
-# Salesforce DX Project: Next Steps
+# Salesforce News Integration Project
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Welcome to this project! This is a simple and straightforward project where we integrate a news API with Salesforce.
 
-## How Do You Plan to Deploy Your Changes?
+**Project Goal:**
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+This project aims to display news fetched from a news API within a Salesforce Lightning App.
 
-## Configure Your Salesforce DX Project
+**Components:**
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+1. **Lightning Web Component (LWC):** This component will be responsible for fetching news data from the API and displaying it in a user-friendly format.
+2. **Lightning App:** This app will serve as the container for the LWC component and potentially other elements related to displaying news. 
 
-## Read All About It
+**3. News Object:**
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+(Optional) Depending on your chosen news API, you might create a custom Salesforce object to store retrieved news data for further manipulation or analysis within Salesforce.
+
+**Getting Started:**
+
+1. Clone this repository:
+
